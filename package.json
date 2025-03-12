@@ -1,17 +1,14 @@
 {
-  "name": "madina-referral-bot",
+  "name": "telegram-bot",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Telegram referral bot",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "dotenv": "^16.4.7",
-    "mongoose": "^8.12.1",
-    "telegraf": "^4.16.3"
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.10.2",
+    "telegraf": "^4.11.2"
   }
 }
